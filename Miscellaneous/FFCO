@@ -1,0 +1,34 @@
+First we have to go first Miscellaneous catagory 
+
+
+Go and click to the FF.CO challange and 
+downlode all jpg  file.
+We will first open the flag.jpg file. 
+There is a single text inside a picture.
+We need to get that text out. 
+For that we can use an online tool.
+link: https://www.prepostseo.com/image-to-text
+
+That's the text we got after using the tools.
+
+the text is : uryyb{purpx_gur_uvag_cebcreyl}
+
+We need to analyze this text. After analyzing that 
+text we came to know that, it is the Encoded text of a ROT-13.
+
+We will use a tool to decrypt the encoded text of Rot-13.
+
+link : https://www.dcode.fr/rot-13-cipher
+
+After decoding, he gave us a text
+
+hello{check_the_hint_properly}
+
+
+He told us to look at Hint. Hint means hint.jpg file.
+ After opening that file, we could see nothing but white.
+
+We have to forensicize this file so when we used the exif tool it gave us the flag.
+
+
+The flag is: wtfctf{IHDR_h34d3r_w4s_th3_k3y} 
